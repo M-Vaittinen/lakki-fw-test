@@ -1,7 +1,7 @@
 CC ?= gcc
 CFLAGS ?= -Wall -Wextra -Wpedantic -std=c11 -Iinclude -Isrc
 LDFLAGS ?=
-LDLIBS ?= -lbluetooth
+LDLIBS ?= -lbluetooth -lpthread
 
 APP_SRCS = \
 	src/app/main.c \
